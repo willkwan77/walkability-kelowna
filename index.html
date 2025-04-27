@@ -20,9 +20,9 @@
         var map = L.map('map').setView([49.8880, -119.4960], 13); // Centered on Kelowna
 
         // Add OpenStreetMap baselayer
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '© OpenStreetMap'
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CartoDB</a>',
+    maxZoom: 19
         }).addTo(map);
     </script>
 </body>
